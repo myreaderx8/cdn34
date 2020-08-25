@@ -1,0 +1,303 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Language" content="UTF-8" />
+	<meta name="robots" content="all" />
+	<meta name="author" content="puterjam@gmail.com,puterjam" />
+	<meta name="Copyright" content="PJBlog3 CopyRight 2011" />
+	<meta name="keywords" content="PJBlog,javascri&#112;t,firefox,browser,浏览器,puterjam,前端开发" />
+	<meta name="description" content="puterjam&#39;s blog, PJBlog的官方站点。关注前端开发 - PuterJam&#39;s Blog - 关注互联网~ 关注前端技术~ 激情是成功的必要前提~" />
+	<meta name="generator" content="PJBlog3" />
+	<link rel="service.post" type="application/atom+xml" title="PuterJam&#39;s Blog - Atom" href="http://www.pjhome.net/xmlrpc.asp" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pjhome.net/rsd.asp" />
+	<title>PuterJam&#39;s Blog-关注互联网~ 关注前端技术~ 激情是成功的必要前提~</title>
+
+	
+	<link rel="alternate" type="application/rss+xml" href="http://www.pjhome.net/feed.asp" title="订阅 PuterJam&#39;s Blog 所有文章(rss2)" />
+	<link rel="alternate" type="application/atom+xml" href="http://www.pjhome.net/atom.asp" title="订阅 PuterJam&#39;s Blog 所有文章(atom)" />
+	
+	<style>.h2_date{display:none}</style>
+	<link rel="stylesheet" rev="stylesheet" href="skins/PJHome3/global.css" type="text/css" media="all" /><!--全局样式表-->
+	<link rel="stylesheet" rev="stylesheet" href="skins/PJHome3/layout.css" type="text/css" media="all" /><!--层次样式表-->
+	<link rel="stylesheet" rev="stylesheet" href="skins/PJHome3/typography.css" type="text/css" media="all" /><!--局部样式表-->
+	<link rel="stylesheet" rev="stylesheet" href="skins/PJHome3/link.css" type="text/css" media="all" /><!--超链接样式表-->
+	<link rel="stylesheet" rev="stylesheet" href="skins/PJHome3/UBB/editor.css" type="text/css" media="all" /><!--UBB编辑器代码-->
+	<link rel="stylesheet" rev="stylesheet" href="FCKeditor/editor/css/Dphighlighter.css" type="text/css" media="all" /><!--FCK块引用&代码样式-->
+
+	<link rel="icon" href="/icons/pjhome_logo_32.png" sizes="32x32" />
+	<link rel="icon" href="/icons/pjhome_logo_48.png" sizes="48x48" />
+	<link rel="icon" href="/icons/pjhome_logo_64.png" sizes="64x64" />
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/icons/pjhome_logo_gif.gif" type="image/gif" />
+
+
+	<script type="text/javascript" src="common/common.js"></script>
+	<script type="text/javascript" src="common/ajax.js"></script>
+	<script type="text/javascript" src="common/AjaxRequest.js"></script>
+	<script type="text/javascript" src="common/Action.js"></script>
+    <script language="javascript" type="text/javascript">
+		var time = 10;
+		var menvalidate = "True";
+	</script>
+	<!--<script type="text/javascript" src="common/nicetitle.js"></script>-->
+	<style type="text/css"> 
+		.ownerClassLog{display:none}
+		.ownerClassComment{display:none;}
+		/*全局的提示框样式*/
+		h5.tips{
+			background:#FFCC00;border:1px solid #FFCC00;background-image:url(images/bg_tips.png);color:#990000;padding:3px;margin:0;font-size:13px
+		}
+		h5.tips img{
+			border:0;background:transparent none !important;
+		}
+		.tips_body{
+			background:#FFFFCC;border:1px solid #FFCC00;padding:4px;
+		}
+		.tips_body form{
+			margin:0;
+		}
+		.tips_body a:link,.tips_body a:visited,.tips_body a:hover{
+			color:#990000;
+		}
+		.tips_body .input{
+			height:17px;
+			border:1px solid #BD5B21
+		}
+		.tips_body .hints{
+				margin:3px 0 0 3px;
+				padding:2px 2px 2px 18px;
+				background:url(images/notify.gif) no-repeat left 4px
+		}
+		.tips_body .error{
+			border:1px solid #CC0033;
+			padding:1px 3px 1px 21px;
+			color:#990000;
+			margin-bottom:2px;
+			background:#FF9F88 url(images/tips.gif) no-repeat 3px 4px
+		}
+	</style>
+</head>
+<body onLoad="initJS()" onkeydown="PressKey()">
+<a href="default.asp" accesskey="i"></a>
+<a href="javascript:history.go(-1)" accesskey="z"></a>
+
+ <div id="container">
+ <!--顶部-->
+  <div id="header">
+   <div id="blogname">PuterJam&#39;s Blog
+    <div id="blogTitle">关注互联网~ 关注前端技术~ 激情是成功的必要前提~</div>
+   </div>
+   		<div id="menu"><div id="Left"></div><div id="Right"></div><ul><li class="menuL"></li><li><a class="menuA menuB" href="default.asp" title="Blog Index">Index</a></li><li class="menuDiv"></li><li><a class="menuA" href="default.asp?cateID=1" title="JS技术(Javascript technology)">Javascript</a></li><li class="menuDiv"></li><li><a class="menuA" href="default.asp?cateID=4" title="网页设计(Web Design)">Web Design</a></li><li class="menuDiv"></li><li><a class="menuA" href="default.asp?cateID=6" title="学习笔记(Note of learning)">Note</a></li><li class="menuDiv"></li><li><a class="menuA" href="default.asp?cateID=3" title="网络资源(Network Resource)">Resource</a></li><li class="menuDiv"></li><li><a class="menuA" href="default.asp?cateID=7" title="About PJBlog3">PJBlog3</a></li><li class="menuDiv"></li><li><a class="menuA" href="default.asp?cateID=5" title="我的日记(My Diary)">Diary</a></li><li class="menuDiv"></li><li><a class="menuA" href="LoadMod.asp?plugins=GuestBookForPJBlog" title="GuestBook">GuestBook</a></li><li class="menuDiv"></li><li><a class="menuA" href="tag.asp" title="Tags Cloud">Tags Cloud</a></li><li class="menuDiv"></li><li><a class="menuA" href="http://bbs.pjhome.net" title="PJBlog BBS">BBS</a></li><li class="menuR"></li></ul></div>
+  </div>
+
+ <!--内容-->
+  <div id="Tbody">
+  <div id="mainContent">
+   <div id="innermainContent">
+       <div id="mainContent-topimg"></div>
+	   
+	   <div id="Content_ContentList" class="content-width">
+	     <div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1048"><img src="images/icons/note.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Note/long_time_no_see.html">好久没写日志了</a><link rel="prerender" href="article/Note/long_time_no_see.html"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1048:after {content:'好久没写日志了';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2014-03-01<div class="h2_date"><span class="day">01</span><span class="month">Mar</span><div> </div></div></h2></div><div id="log_1048"><div class="Content-body"><p>&nbsp;不说什么，改天给blog改一个风格，看看还能不能坚持写下去。</p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=6" title="">Note</a> | <a href="?id=1048">固定链接</a> | <a href="article/Note/long_time_no_see.html#comm_top">评论: 21</a> | <a href="trackback.asp?tbID=1048&action=view" target="_blank">引用: 0</a> | 查看次数: 12165</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1047"><img src="images/icons/connect.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Download/1047.htm">IE10 For Win7 预览版下载公布</a><link rel="prerender" href="article/Download/1047.htm"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1047:after {content:'IE10 For Win7 预览版下载公布';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2012-11-14<div class="h2_date"><span class="day">14</span><span class="month">Nov</span><div> </div></div></h2></div><div id="log_1047"><div class="Content-body"><p><img style="display: block; margin-left: auto; margin-right: auto;" title="ie.jpg" src="http://www.pjhome.net/attachments/month_1211/h20121114171235.jpg" alt="Ie" width="550" height="220" border="0" /></p>
+<p>IE10 终于开始了对win7的兼容，对于广大开发和用户是个福音。win8是否成功还得靠时间来验证，不过舜子还是看好win7。</p>
+<p>这次微软公布了IE10的32位和64位的版本，win7必须要升级SP1才能安装。</p>
+<p>下载地址: <a href="http://windows.microsoft.com/zh-cn/internet-explorer/downloads/ie-10/worldwide-languages">http://windows.microsoft.com/zh-cn/internet-explorer/downloads/ie-10/worldwide-languages</a></p>
+<p class="readMore"><a href="article/Download/1047.htm" class="more"><span>查看更多...</span></a></p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=11" title="">Download</a> | <a href="?id=1047">固定链接</a> | <a href="article/Download/1047.htm#comm_top">评论: 9</a> | <a href="trackback.asp?tbID=1047&action=view" target="_blank">引用: 1</a> | 查看次数: 24619</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1046"><img src="images/icons/page_copy.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Diary/1046.htm">给小米手机打包 Beats Audio 音效</a><link rel="prerender" href="article/Diary/1046.htm"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1046:after {content:'给小米手机打包 Beats Audio 音效';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2012-07-02<div class="h2_date"><span class="day">02</span><span class="month">Jul</span><div> </div></div></h2></div><div id="log_1046"><div class="Content-body"><p style="text-align: center;"><img width="527" height="183" title="NewImage.png" alt="NewImage" border="0" src="http://www.pjhome.net/attachments/month_1207/b201272174420.png" /></p>
+<p>不知道有没有很多人想要，这几天一直在研究如何给我的小米手机安装上 Beats Audio 音效。之前很多地方下载的安装包都是需要在recovery里刷进去的，而小米手机的recovery对这种安装方式有问题。</p>
+<p>所以通过脚本安装的方式把 Beats Audio 以及 DSP 管理器整理一下给有需要的朋友们分享一下</p>
+<p>Beats Audio Mod 来自 ：<br />
+<a href="http://forum.xda-developers.com/showthread.php?t=1525226">http://forum.xda-developers.com/showthread.php?t=1525226</a><br />
+最新的 6.27 版本，经过测试不会引起自带播放器和poweramp的fc问题</p>
+<p>另外，我也把MIUI v4能用的DSP管理器整合进去，重新更改了系统的 audio_effects.conf 配置。<br />
+貌似Beats Audio Mod 里自带了 xloud 但是不知道是不是sony的那个xloud引擎，我都一起配置到了audio_effects.conf 配置里<br style="font: 14px/21px Tahoma, Helvetica, sans-serif, Hei; margin: 0px; padding: 0px; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; word-wrap: break-word; orphans: 2; widows: 2;" />
+<br style="font: 14px/21px Tahoma, Helvetica, sans-serif, Hei; margin: 0px; padding: 0px; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; word-wrap: break-word; orphans: 2; widows: 2;" />
+<span style="font-size: large;"><span style="color: rgb(0, 191, 255);"><strong style="margin: 0px; padding: 0px; word-wrap: break-word;">自己的使用的一些感受~ </strong></span></span><br style="font: 14px/21px Tahoma, Helvetica, sans-serif, Hei; margin: 0px; padding: 0px; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; word-wrap: break-word; orphans: 2; widows: 2;" />
+默认音质上确实有变化，声音开到最大不会出现爆音问题，低音部分貌似比以前沉稳不少，声场方面感觉不错，不过俺不是专业，耳朵还不是非常挑剔，音质方面感受还得大家自己感受。:lol</p>
+<p class="readMore"><a href="article/Diary/1046.htm" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=Android">Android</a><a href="http://technorati.com/tag/Android" rel="tag" style="display:none">Android</a> <a href="default.asp?tag=beats">beats</a><a href="http://technorati.com/tag/beats" rel="tag" style="display:none">beats</a> <a href="default.asp?tag=%E5%B0%8F%E7%B1%B3">小米</a><a href="http://technorati.com/tag/小米" rel="tag" style="display:none">小米</a> <a href="default.asp?tag=miui">miui</a><a href="http://technorati.com/tag/miui" rel="tag" style="display:none">miui</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=5" title="">Diary</a> | <a href="?id=1046">固定链接</a> | <a href="article/Diary/1046.htm#comm_top">评论: 20</a> | <a href="trackback.asp?tbID=1046&action=view" target="_blank">引用: 0</a> | 查看次数: 13346</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1044"><img src="images/icons/page.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Javascript/1044.htm">HTML5 MediaStream的运用</a><link rel="prerender" href="article/Javascript/1044.htm"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1044:after {content:'HTML5 MediaStream的运用';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2012-06-08<div class="h2_date"><span class="day">08</span><span class="month">Jun</span><div> </div></div></h2></div><div id="log_1044"><div class="Content-body"><p style="text-align: center;"><img title="blog picture template.artx 530x185 px.jpg" src="http://www.pjhome.net/attachments/month_1203/3201234183641.jpg" border="0" alt="Blog picture template artx 530x185 px" width="527" height="182" /></p>
+<p>HTML5在技术上发展越来越快，在输入方面浏览器也开始具备了更多能力。舜子一直在关注视频和音频流在html5的支持，虽然不是什么创新点，但是对html来说是一个非常重要的能力。</p>
+<p>Chrome 18开始就把<a href="http://www.w3.org/TR/streamproc/">MediaStream</a>放到实验室里，不过记得在19前的这些版本里，<a href="http://dev.w3.org/2011/webrtc/editor/getusermedia-20111222.html#navigatorusermedia">getUserMedia</a> 接口一直不太稳定，很容易crash。近期发现Chrome 19.0.1055 dev在这个接口的稳定性上有较好的提升。不过在稳定性上，还需要改善。例如，摄像头使用次数过多后，媒体流会莫名中断，对于没有安装摄像头的检测做得不够完善，可能会导致浏览器crash。不过相信chrome以后的版本会fix这些问题，也希望能在chrome 19 的release版本正式用上这个功能。</p>
+<p>这个demo里，其实舜子很早就想用html5来完成gif视频合成的尝试了。也借这个机会，搞了一把极限开发，利用Chrome 的<a href="http://www.w3.org/TR/streamproc/">MediaStream</a>，把用户的摄像头作为动画合成的来源。</p>
+<p><img title="HTML5 GIF Maker-2.jpg" src="http://www.pjhome.net/attachments/month_1203/1201234184516.jpg" border="0" alt="HTML5 GIF Maker 2" width="600" height="523" /></p>
+<p class="readMore"><a href="article/Javascript/1044.htm" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=html5">html5</a><a href="http://technorati.com/tag/html5" rel="tag" style="display:none">html5</a> <a href="default.asp?tag=mediastream">mediastream</a><a href="http://technorati.com/tag/mediastream" rel="tag" style="display:none">mediastream</a> <a href="default.asp?tag=gif">gif</a><a href="http://technorati.com/tag/gif" rel="tag" style="display:none">gif</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=1" title="">Javascript</a> | <a href="?id=1044">固定链接</a> | <a href="article/Javascript/1044.htm#comm_top">评论: 17</a> | <a href="trackback.asp?tbID=1044&action=view" target="_blank">引用: 0</a> | 查看次数: 19285</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1045"><img src="images/icons/page_copy.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Diary/1045.htm">QQ闹钟 v2 for iPhone 发布</a><link rel="prerender" href="article/Diary/1045.htm"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1045:after {content:'QQ闹钟 v2 for iPhone 发布';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2012-05-07<div class="h2_date"><span class="day">07</span><span class="month">May</span><div> </div></div></h2></div><div id="log_1045"><div class="Content-body"><p style="text-align: center;"><img title="NewImage.png" src="http://www.pjhome.net/attachments/month_1205/120125713510.png" border="0" alt="NewImage" width="528" height="183" /></p>
+<p style="text-align: left;">QQ闹钟2.0很顺利通过审核了，这也是团队接触IOS后的一次大版本～ 推荐所有iphone的用户，android版本还在准备当中.</p>
+<blockquote>
+<p><strong>热腾5月7日消息</strong> 日前QQ闹钟（2.0）iPhone 正式发布，新版本全新界面设计，给你带来全新体验，这是一款功能强大的提醒应用。超炫的时钟界面，支持设置您喜欢的音乐做铃声，QQ农场的菜熟了，立刻提醒您，您的菜不再被偷。QQ闹钟还支持QQ牧场，QQ餐厅，QQ超市，魔法卡片等游戏提醒。游戏提醒、生日提醒、倒计时提醒、活动提醒尽在QQ闹钟。</p>
+<p><img style="border: 0px;" src="http://file.service.qq.com/qqfans-files/uploadfile2012/5/7/102223.jpg" alt="" /></p>
+<p><strong>版本 2.0.0 中的新功能：</strong></p>
+<p>1、全新界面设计；</p>
+<p class="readMore"><a href="article/Diary/1045.htm" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=QQ%E9%97%B9%E9%92%9F">QQ闹钟</a><a href="http://technorati.com/tag/QQ闹钟" rel="tag" style="display:none">QQ闹钟</a> <a href="default.asp?tag=IOS">IOS</a><a href="http://technorati.com/tag/IOS" rel="tag" style="display:none">IOS</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=5" title="">Diary</a> | <a href="?id=1045">固定链接</a> | <a href="article/Diary/1045.htm#comm_top">评论: 9</a> | <a href="trackback.asp?tbID=1045&action=view" target="_blank">引用: 0</a> | 查看次数: 2551</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1039"><img src="images/icons/layout.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Web/mac_os_fonts.htm">关于MacOS下字体的一些研究</a><link rel="prerender" href="article/Web/mac_os_fonts.htm"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1039:after {content:'关于MacOS下字体的一些研究';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2011-12-18<div class="h2_date"><span class="day">18</span><span class="month">Dec</span><div> </div></div></h2></div><div id="log_1039"><div class="Content-body"><p style="text-align: center;">&nbsp;<img alt="" src="http://www.pjhome.net/download.asp?id=104" /></p>
+<p>Mac 下的中文字体不多，系统默认是使用细黑体来显示中文文字(STXihei)。</p>
+<p>为什么苹果不使用宋体来显示呢，因为宋体是衬线字体。</p>
+<div><span style="white-space: pre;"> </span><img title="NewImage.png" border="0" alt="NewImage" width="331" height="191" src="http://www.pjhome.net/attachments/month_1112/92011121818932.png" /></div>
+<div>衬线字体：带字体修饰的字体。（图中红色部分） 也叫&ldquo;白体&rdquo;，相对的非衬线字体叫&ldquo;黑体&rdquo;，英文叫sans-serif（sans在英文是非的意思）</div>
+<div><img title="NewImage.png" border="0" alt="NewImage" width="224" height="115" src="http://www.pjhome.net/attachments/month_1112/j2011121818942.png" /></div>
+<div><span style="white-space: pre;"> </span> (中文的宋体和黑体)</div>
+<div>&nbsp;</div><p class="readMore"><a href="article/Web/mac_os_fonts.htm" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=%E5%AD%97%E4%BD%93">字体</a><a href="http://technorati.com/tag/字体" rel="tag" style="display:none">字体</a> <a href="default.asp?tag=fonts">fonts</a><a href="http://technorati.com/tag/fonts" rel="tag" style="display:none">fonts</a> <a href="default.asp?tag=mac">mac</a><a href="http://technorati.com/tag/mac" rel="tag" style="display:none">mac</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=4" title="">Web Design</a> | <a href="?id=1039">固定链接</a> | <a href="article/Web/mac_os_fonts.htm#comm_top">评论: 19</a> | <a href="trackback.asp?tbID=1039&action=view" target="_blank">引用: 0</a> | 查看次数: 11627</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1038"><img src="images/icons/note.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Note/1038.html">URI 和 URL的一些研究笔记</a><link rel="prerender" href="article/Note/1038.html"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1038:after {content:'URI 和 URL的一些研究笔记';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2011-11-15<div class="h2_date"><span class="day">15</span><span class="month">Nov</span><div> </div></div></h2></div><div id="log_1038"><div class="Content-body"><p><img style="display: block; margin-left: auto; margin-right: auto;" title="NewImage.png" src="http://www.pjhome.net/attachments/month_1111/n2011111516727.png" border="0" alt="NewImage" width="527" height="182" /></p>
+<p><strong>1. 关键字回顾：</strong></p>
+<p><span>RFC(Request For Comments) ，RFC文档是一系列关于Internet（早期为ARPANET）的技术资料汇总，于1969年开始发布。它制定了我们很多常见和不常见的Internet的各种文字资料和规范。</span></p>
+<p><span><br />
+</span></p>
+<p class="readMore"><a href="article/Note/1038.html" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=url">url</a><a href="http://technorati.com/tag/url" rel="tag" style="display:none">url</a> <a href="default.asp?tag=rfc">rfc</a><a href="http://technorati.com/tag/rfc" rel="tag" style="display:none">rfc</a> <a href="default.asp?tag=%E6%A0%87%E5%87%86">标准</a><a href="http://technorati.com/tag/标准" rel="tag" style="display:none">标准</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=6" title="">Note</a> | <a href="?id=1038">固定链接</a> | <a href="article/Note/1038.html#comm_top">评论: 21</a> | <a href="trackback.asp?tbID=1038&action=view" target="_blank">引用: 0</a> | 查看次数: 6415</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1037"><img src="images/icons/page.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Javascript/html5_Orientation.html">HTML5 重力感应试玩～</a><link rel="prerender" href="article/Javascript/html5_Orientation.html"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1037:after {content:'HTML5 重力感应试玩～';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2011-07-21<div class="h2_date"><span class="day">21</span><span class="month">Jul</span><div> </div></div></h2></div><div id="log_1037"><div class="Content-body"><p><img style="display: block; margin-left: auto; margin-right: auto;" title="blog picture template.artx 530x185 px-2.png" border="0" alt="Blog picture template artx 530x185 px 2" width="526" height="180" src="http://www.pjhome.net/attachments/month_1107/d201172121111.png" /></p>
+<p>html5 中针对高端手机提供了重力感应和重力加速的接口，开发可以利用这个接口获取到移动设备重力加速感应数据。</p>
+<p>目前已经支持的浏览器只有chrome和firefox，以及IOS的webkit（貌似android上因为版本差异很大，部分低版本的系统不支持）。</p>
+<p>通过iphone或者mac电脑访问下面的地址可以体验哈</p>
+<p class="readMore"><a href="article/Javascript/html5_Orientation.html" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=html5">html5</a><a href="http://technorati.com/tag/html5" rel="tag" style="display:none">html5</a> <a href="default.asp?tag=Javascript">Javascript</a><a href="http://technorati.com/tag/Javascript" rel="tag" style="display:none">Javascript</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=1" title="">Javascript</a> | <a href="?id=1037">固定链接</a> | <a href="article/Javascript/html5_Orientation.html#comm_top">评论: 95</a> | <a href="trackback.asp?tbID=1037&action=view" target="_blank">引用: 0</a> | 查看次数: 33796</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1036"><img src="images/icons/page.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Javascript/setImmediate_requestAnimationFrame.html">setTimeout(0) 即将退役</a><link rel="prerender" href="article/Javascript/setImmediate_requestAnimationFrame.html"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1036:after {content:'setTimeout(0) 即将退役';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2011-07-20<div class="h2_date"><span class="day">20</span><span class="month">Jul</span><div> </div></div></h2></div><div id="log_1036"><div class="Content-body"><p><img style="display: block; margin-left: auto; margin-right: auto;" title="blog picture template.artx 530x185 px.png" border="0" alt="Blog picture template artx 530x185 px" width="527" height="183" src="http://www.pjhome.net/attachments/month_1107/42011720234956.png" /></p>
+<p>相信所有做前端开发的同学都会经常使用&nbsp;<span style="text-decoration: underline;"><strong>setTimeout(0)</strong></span> 来做很多事情，这个一度成为解决了很多前端疑难杂症的法宝。而且大家也知道&nbsp;<span style="text-decoration: underline;"><strong>setTImeout(0)</strong></span> 的极限在16ms左右。也许很多人没想到这个是一个很严重的问题，但是在w3c性能小组的专家眼里这是一个非常纠结的设置。</p>
+<p><strong>那setTimeout和16ms会带来什么问题呢？</strong></p>
+<p><span style="font-size: 18px;"> </span><span style="font-size: 20px;">1. </span>我们都知道，我们在做页面动画的时候大多数都是在用setTImeout来控制每一帧的动画的， 而多个setTimeout的存在会导致很多次CPU中断调度的开销，为了减少这些开销，我们希望同一个统一的CPU中断调度管理调度单元来管理所有动画，</p>
+<p class="readMore"><a href="article/Javascript/setImmediate_requestAnimationFrame.html" class="more"><span>查看更多...</span></a></p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=1" title="">Javascript</a> | <a href="?id=1036">固定链接</a> | <a href="article/Javascript/setImmediate_requestAnimationFrame.html#comm_top">评论: 17</a> | <a href="trackback.asp?tbID=1036&action=view" target="_blank">引用: 0</a> | 查看次数: 22258</div></div></div><div class="Content"><div class="Content-top"><div class="ContentLeft"></div><div class="ContentRight"></div><h1 class="ContentTitle" id="post_1035"><img src="images/icons/note.gif" style="margin:0px 2px -4px 0px;" alt="" class="CateIcon"/><a class="titleA" href="article/Note/1035.html">微软出品 Html5 的吃豆人</a><link rel="prerender" href="article/Note/1035.html"/></h1><style>@media screen and (-webkit-min-device-pixel-ratio:0){#post_1035:after {content:'微软出品 Html5 的吃豆人';}}</style><h2 class="ContentAuthor">作者:puterjam 日期:2011-04-21<div class="h2_date"><span class="day">21</span><span class="month">Apr</span><div> </div></div></h2></div><div id="log_1035"><div class="Content-body"><p><img style="display: block; margin-left: auto; margin-right: auto;" title="blog picture template.artx 530x185 px-1.jpg" src="http://www.pjhome.net/attachments/month_1104/c2011421105825.jpg" border="0" alt="Blog picture template artx 530x185 px 1" width="528" height="183" /></p>
+<p>Html5 游戏开始初露锋芒，在终端上渐现优势的Html5 game 或许瞄准了一个非常号的平台。微软的加入更加让Html5的普及加上更多的动力。</p>
+<p>看看微软做的html5游戏吧，这个在FC上的经典游戏，也跨平台到了HTML5上，不过借助网络的力量，这个版本的吃豆人可以自创关卡哟～</p>
+<p>这个游戏由澳大利亚的网页游戏工作室Soap Creative开发，发布于微软的MIX11开发者大会上。</p>
+<p class="readMore"><a href="article/Note/1035.html" class="more"><span>查看更多...</span></a></p><p class="tags">Tags: <a href="default.asp?tag=html5">html5</a><a href="http://technorati.com/tag/html5" rel="tag" style="display:none">html5</a> <a href="default.asp?tag=canvas">canvas</a><a href="http://technorati.com/tag/canvas" rel="tag" style="display:none">canvas</a> </p></div><div class="Content-bottom"><div class="ContentBLeft"></div><div class="ContentBRight"></div>分类:<a href="default.asp?cateID=6" title="">Note</a> | <a href="?id=1035">固定链接</a> | <a href="article/Note/1035.html#comm_top">评论: 53</a> | <a href="trackback.asp?tbID=1035&action=view" target="_blank">引用: 0</a> | 查看次数: 7984</div></div></div>
+<div class="pageContent"><div class="page" style="float:Left"><ul><li class="pageNumber"><strong>1</strong><a href="/default.asp?page=2"  page="2">2</a><a href="/default.asp?page=3"  page="3">3</a><a href="/default.asp?page=4"  page="4">4</a><a href="/default.asp?page=5"  page="5">5</a><a href="/default.asp?page=6"  page="6">6</a><a href="/default.asp?page=7"  page="7">7</a><a href="/default.asp?page=8"  page="8">8</a><a href="/default.asp?page=9"  page="9">9</a><a href="/default.asp?page=2" title="下一页" page="2" style="text-decoration:none" accesskey="." >下一页</a><a href="/default.asp?page=98" page="98"  title="最后一页" style="text-decoration:none" >末页</a></li></ul></div></div>
+
+	   </div>
+	   
+       <div id="mainContent-bottomimg"></div>
+   </div>
+   </div>
+   
+   <div id="sidebar">
+	   <div id="innersidebar">
+		     <div id="sidebar-topimg"><!--工具条顶部图象--></div>
+			  <div id="Side_User" class="sidepanel"><h4 class="Ptitle">User Panel</h4><div class="Pcontent"><a href="login.asp" class="sideA" accesskey="L">登录</a><a href="register.asp" class="sideA" accesskey="U">用户注册</a></div><div class="Pfoot"></div></div><div id="Side_PJBlogDownload" class="sidepanel"><h4 class="Ptitle">My Project</h4><div class="Pcontent"><div title="下载 pjblog3" onclick="location='https://github.com/puterjam/pjblog'" style="margin-top:10px;cursor:pointer;background: url(/images/getPJBlog.png) no-repeat; overflow: hidden; width: 188px; color:#fff;text-align:center;padding-top:140px;color:#616787">已有 <span id="downCount">...</span> 次下载</div>
+<script type="text/javascri&#112;t" src="http://www.pjhome.net/downCount.js"></script>
+<script type="text/javascri&#112;t" src="http://www.pjhome.net/getDCount.asp" defer="defer"></script>
+<div style="position:absolute;top: 70px;margin-left: 40px;"><a href="http://twitter.com/puterjam" title="@puterjam" target="_blank" style="display:block;width:156px;height:70px;"></a></div>
+
+</div><div class="Pfoot"></div></div><div id="Side_Category" class="sidepanel"><h4 class="Ptitle">Category</h4><div class="Pcontent"><img src="images/icons/house.gif" border="0" style="margin:3px 4px -4px 0px;" alt="Blog Index"/><a class="CategoryA" href="default.asp" title="Blog Index">Index</a><br/><img src="images/icons/page.gif" border="0" style="margin:3px 4px -4px 0px;" alt="JS技术(Javascript technology)"/><a class="CategoryA" href="default.asp?cateID=1" title="JS技术(Javascript technology)">Javascript [113]</a> <a href="feed.asp?cateID=1" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/layout.gif" border="0" style="margin:3px 4px -4px 0px;" alt="网页设计(Web Design)"/><a class="CategoryA" href="default.asp?cateID=4" title="网页设计(Web Design)">Web Design [102]</a> <a href="feed.asp?cateID=4" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/note.gif" border="0" style="margin:3px 4px -4px 0px;" alt="学习笔记(Note of learning)"/><a class="CategoryA" href="default.asp?cateID=6" title="学习笔记(Note of learning)">Note [75]</a> <a href="feed.asp?cateID=6" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/monitor.gif" border="0" style="margin:3px 4px -4px 0px;" alt="网络资源(Network Resource)"/><a class="CategoryA" href="default.asp?cateID=3" title="网络资源(Network Resource)">Resource [242]</a> <a href="feed.asp?cateID=3" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/bug.gif" border="0" style="margin:3px 4px -4px 0px;" alt="PJBlog Patch"/><a class="CategoryA" href="default.asp?cateID=10" title="PJBlog Patch">Patch [18]</a> <a href="feed.asp?cateID=10" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/page_copy.gif" border="0" style="margin:3px 4px -4px 0px;" alt="我的日记(My Diary)"/><a class="CategoryA" href="default.asp?cateID=5" title="我的日记(My Diary)">Diary [241]</a> <a href="feed.asp?cateID=5" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/book_open.gif" border="0" style="margin:3px 4px -4px 0px;" alt="书籍(book)"/><a class="CategoryA" href="default.asp?cateID=22" title="书籍(book)">book [3]</a> <a href="feed.asp?cateID=22" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/cog.gif" border="0" style="margin:3px 4px -4px 0px;" alt="How To:Use PJBlog3"/><a class="CategoryA" href="default.asp?cateID=9" title="How To:Use PJBlog3">How To [13]</a> <a href="feed.asp?cateID=9" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/connect.gif" border="0" style="margin:3px 4px -4px 0px;" alt="PJBlog3&#39;s Resource"/><a class="CategoryA" href="default.asp?cateID=11" title="PJBlog3&#39;s Resource">Download [33]</a> <a href="feed.asp?cateID=11" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/page_white_flash.gif" border="0" style="margin:3px 4px -4px 0px;" alt="Flash &amp; AIR"/><a class="CategoryA" href="default.asp?cateID=26" title="Flash &amp; AIR">flash AIR [8]</a> <a href="feed.asp?cateID=26" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/page_white_code.gif" border="0" style="margin:3px 4px -4px 0px;" alt="Light Up the Web"/><a class="CategoryA" href="default.asp?cateID=24" title="Light Up the Web">Silverlight [5]</a> <a href="feed.asp?cateID=24" title="订阅该分类内容"><img src="images/rss.png" border="0" style="margin:3px 4px -1px 0px;" alt=""/></a><br/><img src="images/icons/information.gif" border="0" style="margin:3px 4px -4px 0px;" alt="个人档案(private file)"/><a class="CategoryA" href="LoadMod.asp?plugins=AboutMeForPJBlog" title="个人档案(private file)">private file</a><br/><img src="images/icons/heart.gif" border="0" style="margin:3px 4px -4px 0px;" alt="Favourite Website Awards"/><a class="CategoryA" href="http://www.thefwa.com/" title="Favourite Website Awards">The FWA</a><br/><img src="images/icons/photo.gif" border="0" style="margin:3px 4px -4px 0px;" alt="My Picasa Web Albums"/><a class="CategoryA" href="http://picasaweb.google.com/puterjam" title="My Picasa Web Albums">Web Album</a><br/></div><div class="Pfoot"></div></div><div id="Side_GoogleSearch" class="sidepanel"><h4 class="Ptitle">Blog Search</h4><div class="Pcontent"><!-- Google CSE Search Box Begins  -->
+<style type="text/css">
+@import url(http://www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-" style="margin:4px">
+  <div class="cse-branding-form">
+    <form action="http://www.google.com/cse" id="searchbox_017473628490393480374:roe8lkcmn34" style="margin-top:0">
+      <input type="hidden" name="cx" value="017473628490393480374:roe8lkcmn34" />
+      <input type="text" name="q" size="14" class="inputBox" style="width:115px"/>
+      <input type="submit" name="sa" value="Search" style="margin-top:2px;margin-right:-5px"/>
+    </form>
+  </div>
+  </div>
+<!-- Google CSE Search Box Ends --></div><div class="Pfoot"></div></div><div id="Side_Comment" class="sidepanel"><h4 class="Ptitle">Recent Comments</h4><div class="Pcontent">		 <div class="commentTable">
+		  <a class="sideA" href="article/Note/long_time_no_see.html#comm_16653" title="呆呆呵呵 于 2014-07-13 02:18 PM 发表评论
+360抽抽了,说是凶险网站呢&nbsp;&nbsp;我点了好几次,就这次我勇敢的来了... 我要给你留言,你要把日记写下去哦 ">360抽抽了,说是凶险网站呢&nbsp;&nbsp;我点了好几次,就这...</a><a class="sideA" href="article/Resource/104.html#comm_16652" title="FBk6Ql 于 2014-07-12 11:31 AM 发表评论
++1 大赞你一下，文章太爽绿，帮KlmiF">+1 大赞你一下，文章太爽绿，帮KlmiF</a><a class="sideA" href="article/Note/long_time_no_see.html#comm_16648" title="realzyq 于 2014-06-28 11:57 AM 发表评论
+你好，请问还在做人脸识别方面的工作嘛？如果还在做能否给个联系方式。谢谢 ">你好，请问还在做人脸识别方面的工作嘛？如果还在做能...</a><a class="sideA" href="article/Note/long_time_no_see.html#comm_16640" title="彭涛雅阁 于 2014-06-03 11:07 AM 发表评论
+PJ大学的时候看同学做过，自己做的时候就成了zblog和wp了。希望我们这些独立博主们能继续坚持住!&nbsp;&nbsp;欢迎回访">PJ大学的时候看同学做过，自己做的时候就成了zbl...</a><a class="sideA" href="article/Note/long_time_no_see.html#comm_16639" title="七六 于 2014-06-02 10:51 AM 发表评论
+总有人有写博客的诉求">总有人有写博客的诉求</a><a class="sideA" href="article/Note/long_time_no_see.html#comm_16635" title="itbulu 于 2014-05-19 07:35 PM 发表评论
+你的DNS应该是被人入侵了，被大量的泛解析">你的DNS应该是被人入侵了，被大量的泛解析</a><a class="sideA" href="article/Javascript/559.html#comm_16632" title="FtjhPq 于 2014-05-15 04:00 PM 发表评论
+写的实在是太好了，一定要支持一下38pE4">写的实在是太好了，一定要支持一下38pE4</a><a class="sideA" href="article/Resource/104.html#comm_16631" title="照明世界 于 2014-05-15 02:16 PM 发表评论
+写的实在是太好了，一定要支持一下vfJ8g">写的实在是太好了，一定要支持一下vfJ8g</a><a class="sideA" href="article/Javascript/1044.htm#comm_16630" title="singno 于 2014-05-13 11:02 PM 发表评论
+哈哈，居然搜索到zishun的blog了。">哈哈，居然搜索到zishun的blog了。</a><a class="sideA" href="article/Note/long_time_no_see.html#comm_16629" title="星星一颗 于 2014-05-11 12:10 AM 发表评论
+当年的繁荣景象一去不复返！！！">当年的繁荣景象一去不复返！！！</a>
+	     </div></div><div class="Pfoot"></div></div><div id="Side_BlogInfo" class="sidepanel"><h4 class="Ptitle">Statistics</h4><div class="Pcontent">日志: <a href="default.asp"><b>975</b> 篇</a><br/>
+评论: <a href="search.asp?searchType=Comments"><b>14525</b> 个</a><br/>
+引用: <a href="search.asp?searchType=trackback"><b>293</b> 个</a><br/>
+留言: <b>4825</b> 个<br/>
+会员: <a href="member.asp"><b>32986</b> 人</a><br/>
+访问: <b>43253225</b> 次<br/>
+在线: <b>5</b> 人<br/>
+建站时间: <strong>2004-06-03</strong></div><div class="Pfoot"></div></div><div id="Side_Blogger" class="sidepanel"><h4 class="Ptitle">Friend Blogger</h4><div class="Pcontent"><div style="line-height:150%">
+<br/><b>Blogger:</b><br/>
+<a class="sideA" href="http://www.cssforest.org/blog/" target="_blank">CSS森林</a>
+
+<a class="sideA" href="http://www.twinsenliang.net/" target="_blank">Twinsen Liang</a>
+
+<a class="sideA" href="http://www.vimer.cn/" target="_blank">Vimer的程序世界</a>
+
+<a class="sideA" href="http://popotang.com/blog/" target="_blank">泡泡堂</a>
+
+<a class="sideA" href="http://www.gzlinyi.cn" target="_blank">蓝色飞扬’s blog</a>
+
+<a class="sideA" href="http://www.pufen.net/" target="_blank">飘飘的生活空间</a>
+
+<a class="sideA" href="http://www.snowkit.cn/eBlog/" target="_blank">Element's Blog</a>
+
+<a class="sideA" href="http://www.blogjava.net/emu/" target="_blank">emu in blogjava</a>
+
+<a class="sideA" href="http://www.cbmland.com/" target="_blank">cbm's land</a>
+
+<a class="sideA" href="http://www.dengjie.com/" target="_blank">当哥的flash blog</a>
+
+<a class="sideA" href="http://hb.cnbct.org/" target="_blank">Make A New Life</a>
+
+<a class="sideA" href="http://www.v-ec.com/dh20156/" target="_blank">WEB前端精英俱乐部</a>
+
+<a class="sideA" href="http://my.heiyo.cn/" target="_blank">Heiyo Mood</a>
+
+<a class="sideA" href="http://www.gidot.net/" target="_blank">Mr.GiDot</a>
+
+<a class="sideA" href="http://rain520.net/" target="_blank">RainBlog-烟雨空间</a>
+
+<a class="sideA" href="http://www.aoao.org.cn/blog/" target="_blank">样式之美 正在消失(嗷嗷)</a>
+
+<a class="sideA" href="http://www.tangzhehao.com.cn/" target="_blank">沁[KIng}</a>
+
+<a class="sideA" href="http://www.yyld.net/" target="_blank">摇曳铃丹☆YYLD</a>
+
+<a class="sideA" href="http://laob.me/" target="_blank">毕扬博客</a>
+
+<a class="sideA" href="http://www.itbulu.com/" target="_blank">ItBuLu's Blog</a>
+
+<a class="sideA" href="http://www.mysuc.com/" target="_blank">烦恼's BLOG</a>
+
+<a class="sideA" href="http://www.jguoer.com/blog/" target="_blank">JGuoer</a>
+
+<a class="sideA" href="http://www.bestchao.com/" target="_blank">BestChao's Blog</a>
+
+<br/><br/><b>Friendship support:</b><br/>
+<a class="sideA" href="http://weixin.qcloud.com/market" target="_blank">腾讯云 - 微信服务市场</a>
+
+<a class="sideA" href="http://vip.qzone.com/" target="_blank">黄钻贵族，精彩无限</a>
+
+<a class="sideA" href="http://www.mrnunu.com/" target="_blank">努努创意设计</a>
+
+<a class="sideA" href="http://down.admin5.com/" target="_blank">A5 下载</a>
+
+<a class="sideA" href="http://www.0513.cc/" target="_blank">南通生活网</a>
+
+<a class="sideA" href="http://www.taonice.cn/" target="_blank">淘好![Taonice}.</a>
+
+<a class="sideA" href="http://www.a8link.com/" target="_blank">A8站长网</a>
+
+<a class="sideA" href=" http://www.baiup.com"  target="_blank">百尚网</a>
+
+<a class="sideA" href=" http://www.l-sky.cn/" title="悠然天空工作室(L-SKY.STUDIO)">悠然天空工作室</a>
+
+<a class="sideA" href=" http://www.zhanw.com/" title="站长网">站长网</a>
+
+<a class="sideA" href=" http://bbs.zhanw.com/" title="站长论坛">站长论坛</a>
+<br/>
+
+
+<!--
+<a id="popupA" class="sideA popup" href="#" target="_blank" onmouseover="showPopupLink()">游戏链</a> 
+<div id="popupLinks" class="popuplink"> 
+</div>
+-->
+
+</div></div><div class="Pfoot"></div></div><div id="Side_Support" class="sidepanel"><h4 class="Ptitle">Support</h4><div class="Pcontent"><div style="padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px"><a href="http://www.pjhome.net"><img border="0" alt="PuterJam's Blog" src="images/logos.gif" /></a></div>
+<div style="padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px"><a href="http://feedvalidator.org/check.cgi?url=http://www.pjhome.net/feed.asp"><img border="0" alt="[Valid RSS]" style="width: 88px; height: 31px" src="images/valid-rss.png" /></a> <a href="http://feedvalidator.org/check.cgi?url=http://www.pjhome.net/atom.asp"><img title="Validate my Atom 1.0 feed" border="0" alt="[Valid Atom 1.0]" style="width: 88px; height: 31px" src="images/valid-atom.png" /></a></div>
+
+<div style="padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px"><a target="_blank" href="http://validator.w3.org/check/referer"><img border="0" alt="XHTML 1.0 Transitional" src="images/xhtml.png" /></a> <a target="_blank" href="http://jigsaw.w3.org/css-validator/validator-uri.html"><img border="0" alt="Css Validator" style="background: #fff" src="images/css.png" /></a></div>
+</div><div class="Pfoot"></div></div>
+		     <div id="sidebar-bottomimg"></div>
+	   </div>
+   </div>
+   <div style="clear: both;height:1px;overflow:hidden;margin-top:-1px;"></div>
+ </div>
+  
+ <!--底部-->
+  <div id="foot">
+    <p>Powered By <a href="http://www.pjhome.net" target="_blank"><strong>PJBlog3</strong></a> <a href="http://www.pjhome.net" target="_blank"><strong>V3.2.9.506</strong></a> CopyRight 2005 - 2011, <strong>PuterJam&#39;s Blog</strong> <a href="http://validator.w3.org/check/referer" target="_blank">xhtml</a> | <a href="http://jigsaw.w3.org/css-validator/validator-uri.html">css</a></p>
+    <p style="font-size:11px;">Processed in <b>0.125000</b> second(s) , <b>2</b> queries , <a href="http://www.pjhome.net" target="_blank"><strong>PJHome 3.0</strong></a> Design By <a href="mailto:" target="_blank"><strong>PuterJam</strong></a> <a href="http://www.codefense.cn" target="_blank"><img border="0" src="images/detect.gif" alt="Code Detection By Codefense" style="margin-bottom:-2px;height:14px;width:12px"/></a>
+    <br/><a href="http://www.miibeian.gov.cn" style="font-size:12px" target="_blank"><b>粤ICP备11022983号-1</b></a>
+    </p>
+   </div>
+ </div>
+<script type="text/javascript">initAccessKey()  //转换AccessKey For IE</script>
+</body>
+</html>
